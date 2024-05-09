@@ -3,7 +3,7 @@
   "displayName": "Wrap Text With T",
   "description": "Function shortcut package selection content",
   "version": "0.0.1",
-  "publisher": "kid-kang",
+  "publisher": "1356422517",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.89.0"
@@ -30,6 +30,9 @@
         "when": "editorTextFocus && editorHasSelection"
       }
     ]
+  },
+  "repository": {
+    "url": "https://github.com/kid-kang/wrap-text-with-t"
   },
   "scripts": {
     "lint": "eslint .",
