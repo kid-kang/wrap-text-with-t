@@ -1,6 +1,6 @@
 {
   "name": "wrap-text-with-t",
-  "displayName": "Wrap Text With Fn",
+  "displayName": "Wrap Text With T",
   "description": "Function shortcut package selection content",
   "version": "0.0.1",
   "publisher": "王政康",
@@ -12,19 +12,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.wrapWithT"
+    "onCommand:extension.wrapTextWithT"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.wrapWithT",
+        "command": "extension.wrapTextWithT",
         "title": "国际化函数包裹"
       }
     ],
     "keybindings": [
       {
-        "command": "extension.wrapWithT",
+        "command": "extension.wrapTextWithT",
         "key": "ctrl+alt+z",
         "mac": "cmd+alt+z",
         "when": "editorTextFocus && editorHasSelection"
