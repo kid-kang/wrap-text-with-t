@@ -3,7 +3,7 @@
   "displayName": "Wrap Text With T",
   "description": "Function shortcut package selection content",
   "version": "0.0.1",
-  "publisher": "王政康",
+  "publisher": "kid-kang",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.89.0"
